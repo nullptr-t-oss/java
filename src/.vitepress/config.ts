@@ -33,7 +33,7 @@ export default defineConfigWithTheme<ThemeConfig>({
         development: true,
         production: true
       },
-      delay: 80
+      delay: 100
     },
     editLink: {
       pattern: 'https://github.com/0x-br0k3n/java/blob/main/src/:path'
