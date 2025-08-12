@@ -7,12 +7,11 @@ import { defineConfigWithTheme } from 'vitepress';
 import baseConfig from 'vitepress-theme-mild/config';
 
 export default defineConfigWithTheme<ThemeConfig>({
-  extends: {
-    ...baseConfig,
-    vite: {
-      ...(baseConfig as any).vite,
-      plugins: [pagefindPlugin(), ...(baseConfig as any).vite.plugins],
-    }
+  extends: baseConfig,
+  vite: {
+    plugins: [
+      pagefindPlugin()
+    ]
   },
   title: "Java",
   description: "Java Notes",
@@ -28,7 +27,13 @@ export default defineConfigWithTheme<ThemeConfig>({
       options: {
         detailedView: true
       }
-
+    },    
+    docContentSlideEnter: {
+      enable: {
+        development: true,
+        production: true
+      },
+      delay: 80
     },
     editLink: {
       pattern: 'https://github.com/0x-br0k3n/java/blob/main/src/:path'
