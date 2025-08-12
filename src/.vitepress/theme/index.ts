@@ -1,6 +1,6 @@
 // .vitepress/theme/index.ts
+import MildTheme from 'vitepress-theme-mild';
 import { h } from 'vue'
-import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme' // Keep this for 'extends'
 import { injectSpeedInsights } from '@vercel/speed-insights';
 // Remove these imports, as their logic will now live inside Layout.vue
@@ -14,7 +14,7 @@ import Cursor from './Cursor.vue' // Cursor still imported as it's a specific co
 import CustomUserLayout from './Layout.vue' // Import your Layout.vue here
 
 export default {
-  extends: DefaultTheme, // Still extend the default theme for shared functionalities
+  extends: MildTheme, // Still extend the default theme for shared functionalities
   Layout: CustomUserLayout, // <-- DIRECTLY use your Layout.vue as the main theme layout
 
   // The 'enhanceApp' hook should now be clean for the toggle-appearance provide
@@ -24,4 +24,4 @@ export default {
     // No 'toggle-appearance' provide here anymore, it's in Layout.vue
     injectSpeedInsights();
   }
-} satisfies Theme
+} satisfies typeof MildTheme

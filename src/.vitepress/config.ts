@@ -2,14 +2,21 @@ import { defineConfig } from 'vitepress'
 import head from "./head"
 import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
-export default defineConfig({
+import type { ThemeConfig } from 'vitepress-theme-mild';
+import { defineConfigWithTheme } from 'vitepress';
+import baseConfig from 'vitepress-theme-mild/config';
+
+export default defineConfigWithTheme<ThemeConfig>({
+  extends: baseConfig,
+  vite: {
+    plugins: [
+      pagefindPlugin()
+    ]
+  },
   title: "Java",
   description: "Java Notes",
   //base: '/java/',
   head,
-  vite: {
-    plugins: [pagefindPlugin()],
-  },
   markdown: {
     math: true
   },
@@ -20,7 +27,13 @@ export default defineConfig({
       options: {
         detailedView: true
       }
-
+    },    
+    docContentSlideEnter: {
+      enable: {
+        development: true,
+        production: true
+      },
+      delay: 80
     },
     editLink: {
       pattern: 'https://github.com/0x-br0k3n/java/blob/main/src/:path'
