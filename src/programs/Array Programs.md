@@ -1,6 +1,6 @@
 # Array programs
 
-## Maximum Subarray
+## Maximum Subarray (Difficulty : Medium)
 
 Given an integer array nums, find the `subarray` with the largest sum, and return its sum.\
 Subarray meaning : A subarray is a `contiguous non-empty` sequence of elements within an array.
