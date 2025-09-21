@@ -171,6 +171,12 @@ export default defineConfigWithTheme<ThemeConfig>({
         items: [
           { text: 'Memory', link: '/extra/Memory' }
         ]
+      },{
+        text: 'Programs',
+        collapsed: true,
+        items: [
+          { text: 'Array Programs', link: '/programs/Array Programs' }
+        ]
       },
       {
         text: 'Downloads',

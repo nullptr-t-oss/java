@@ -1,6 +1,6 @@
 # Operators and Expressions
 
-# Types of Operators in Java
+## Types of Operators in Java
 >[!NOTE] Arithmetic Operators
 >Arithmetic Operators are used to perform simple arithmetic operations on primitive and non-primitive data types 
 >| Operator |	Description|
