@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@vercel/speed-insights": "^1.2.0",
-    "dotenv": "^17.2.2",
+    "dotenv": "^17.2.3",
     "pagefind": "^1.4.0",
     "save": "^2.9.0",
     "vitepress-plugin-pagefind": "^0.4.14"
