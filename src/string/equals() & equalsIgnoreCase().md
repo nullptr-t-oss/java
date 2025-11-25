@@ -78,7 +78,7 @@ The Java String class equalsIgnoreCase() method compares the two given strings o
  int w = "abc".equalsIgnoreCase("abd");        // false
  int x = "abd".equalsIgnoreCase("abc");        // false
  int y = "Green".equalsIgnoreCase("Greenery"); // false
- int z = "Greenery".equalsIgnireCase("Green"); // false
+ int z = "Greenery".equalsIgnoreCase("Green"); // false
 
 ```
 
