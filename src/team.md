@@ -3,11 +3,11 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: 'https://www.github.com/0x-br0k3n.png',
+    avatar: 'https://www.github.com/nullptr-t-oss.png',
     name: '0x-br0k3n',
     title: 'Creator/Developer',
     links: [
-      { icon: 'github', link: 'https://github.com/0x-br0k3n' },
+      { icon: 'github', link: 'https://github.com/nullptr-t-oss' },
       { icon: 'discord', link: 'https://discordapp.com/users/810058393653084181' }
     ]
   },
