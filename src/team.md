@@ -4,7 +4,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 const members = [
   {
     avatar: 'https://www.github.com/nullptr-t-oss.png',
-    name: '0x-br0k3n',
+    name: 'nullptr_t',
     title: 'Creator/Developer',
     links: [
       { icon: 'github', link: 'https://github.com/nullptr-t-oss' },
