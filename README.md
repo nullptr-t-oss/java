@@ -2,7 +2,7 @@
 
 ## Website Link
 
-### [Github Pages](https://0x-br0k3n.github.io/java/)
+### [Github Pages](https://nullptr-t-oss.github.io/java/)
 ### [Vercel (Optimised for better performance on Mobiles)](https://javanotes-br0k3n.vercel.app/)
 
 ## Performance metrics :
