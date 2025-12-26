@@ -36,7 +36,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       delay: 100
     },
     editLink: {
-      pattern: 'https://github.com/0x-br0k3n/java/blob/main/src/:path'
+      pattern: 'https://github.com/nullptr-t-oss/java/blob/main/src/:path'
     },
     nav: [
       { text: 'Home', link: '/' },
@@ -188,7 +188,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/0x-br0k3n/java' }
+      { icon: 'github', link: 'https://github.com/nullptr-t-oss/java' }
     ]
   }
 })

@@ -11,10 +11,10 @@ hero:
       link: /intro/About Java
     - theme: alt
       text: Github
-      link: https://github.com/0x-br0k3n/java
+      link: https://github.com/nullptr-t-oss/java
 
 features:
-  - title: 0x-br0k3n
+  - title: nullptr_t
     details: Website deisgn, deployment & notes
   - title: Dark
     details: Notes
